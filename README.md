@@ -38,7 +38,7 @@ La idea principal del proyecto fue construir una experiencia moderna, elegante e
 Clonar el proyecto:
 
 ```bash
-git clone <url-del-repositorio>
+git clone https://github.com/hans-carv/Campos-De-Solana.git
 ```
 
 Instalar dependencias:
