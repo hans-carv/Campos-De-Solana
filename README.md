@@ -1,16 +1,112 @@
-# React + Vite
+# Campos de Solana 🍷🐢
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto web desarrollado en React + Vite inspirado en la experiencia visual de una bodega premium de vinos.
 
-Currently, two official plugins are available:
+La idea principal del proyecto fue construir una experiencia moderna, elegante e interactiva, enfocándonos bastante en el diseño visual, animaciones y reutilización de componentes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Tecnologías utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- GSAP
+- Framer Motion
+- CSS3
+- JavaScript ES6
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Funcionalidades
+
+- Catálogo interactivo de vinos
+- Hero animado con GSAP
+- Animaciones suaves con Framer Motion
+- Login y registro de usuarios
+- Navegación SPA
+- Componentes reutilizables
+- Cards dinámicas
+- Sección de vinos premiados
+- Footer interactivo
+- Diseño visual premium
+- Responsive Design parcial
+
+---
+
+## Instalación
+
+Clonar el proyecto:
+
+```bash
+git clone <url-del-repositorio>
+```
+
+Instalar dependencias:
+
+```bash
+npm install
+```
+
+Ejecutar el proyecto:
+
+```bash
+npm run dev
+```
+
+---
+
+## Estructura del proyecto
+
+```bash
+src/
+├── assets/
+├── components/
+├── pages/
+├── styles/
+├── data/
+└── App.jsx
+```
+
+---
+
+## Librerías principales
+
+### GSAP
+
+Usado principalmente para:
+
+- Hero principal
+- Efectos de scroll
+- Transiciones visuales
+
+### Framer Motion
+
+Usado para:
+
+- Transiciones suaves
+- Microinteracciones
+- Animaciones dinámicas en componentes
+
+---
+
+## Mejoras futuras
+
+- Mejorar responsive mobile
+- Integración con backend
+- Historial de compras
+- Carrito funcional completo
+- Traducción ES/EN completa
+- Optimización de animaciones
+
+---
+
+## Equipo
+
+Grupo Los Tortus 🐢  
+Universidad Católica Boliviana "San Pablo"
+
+---
+
+## Nota
+
+Proyecto desarrollado con fines académicos.
